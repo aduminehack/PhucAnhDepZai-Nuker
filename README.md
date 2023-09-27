@@ -16,8 +16,6 @@ PREMIUM VERSION:
 </p>
  
 ---
-![image](https://user-images.githubusercontent.com/94531396/171850124-c9800302-5bbc-4032-9509-a51e56228374.png)
-![image](https://user-images.githubusercontent.com/94531396/171852766-688a51b4-957f-44a3-978b-c036c52a01bb.png)
 
 
 <p align="center"> 
@@ -35,7 +33,7 @@ PREMIUM VERSION:
 - [x] - **Might Have Some Bugs**
 - [x] - **Python Provided**
 
-> **WARNING:** Many people have been selling/distributing of GANG-Nuker!
+> **WARNING:** Many people have been selling/distributing of PhuccAnhDepZai-Nuker!
 
 > **DO NOT** Installing PhuccAnhDepZai-Nuker From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
 
@@ -45,11 +43,11 @@ PREMIUM VERSION:
 ```sh-session
 Download nuker.zip
 Extract File
-Tap "Install.bat" in PhuccAnhDepZai-Nuker Folder
-Once All The Modules Have Been Installed GANG will Auto Launch!
+Tap "Install.bat" in PhucAnhDepZai-Nuker Folder
+Once All The Modules Have Been Installed PhuccAnhDepZai-Nuker will Auto Launch!
 Enjoy!
 
-NOTE: When Opening PhuccAnhDepZai-Nuker Just Tap "start.bat" to Open Everytime!
+NOTE: When Opening PhucAnhDepZai-Nuker Just Tap "start.bat" to Open Everytime!
 NOTE: Make sure you have Python 3.9+ and Added to Path.
 ```
 
