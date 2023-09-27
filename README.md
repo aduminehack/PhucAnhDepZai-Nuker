@@ -3,15 +3,8 @@
 </p>
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=QqLqglDPNCE">TOKEN GENERATOR SHOWCASE</a>
 
- 
-</p>
-<p align="center">
-<a href="https://github.com/TT-Tutorials/GANG-Nuker/releases/download/v1.0.0/GANG-Nuker.zip">Fast Download</a> ㅤ•ㅤ
-<a href="https://discord.gg/F5eFWm2puM">Discord</a> ㅤ•ㅤ
-<a href="https://www.youtube.com/watch?v=nVkysvMVk-M">Setup Tutorial Video</a>
-</p>
+
 </p>
 <p align="center">
 <a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe">Python v3.10</a>ㅤㅤ 
@@ -19,7 +12,7 @@
 </p>
 <p align="center">
 PREMIUM VERSION:
-<a href="https://gangnuker.org/">WEBSITE</a>
+<a href="https://phucanhnuker.org/">WEBSITE</a>
 </p>
  
 ---
@@ -44,19 +37,19 @@ PREMIUM VERSION:
 
 > **WARNING:** Many people have been selling/distributing of GANG-Nuker!
 
-> **DO NOT** Installing GANG-Nuker From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
+> **DO NOT** Installing PhuccAnhDepZai-Nuker From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
 
 ## Installation
 
 #### Source Code Version (More complicated but less buggy)
 ```sh-session
-Download GANG-Nuker.zip
+Download nuker.zip
 Extract File
-Tap "Install.bat" in GANG Folder
+Tap "Install.bat" in PhuccAnhDepZai-Nuker Folder
 Once All The Modules Have Been Installed GANG will Auto Launch!
 Enjoy!
 
-NOTE: When Opening GANG-Nuker Just Tap "start.bat" to Open Everytime!
+NOTE: When Opening PhuccAnhDepZai-Nuker Just Tap "start.bat" to Open Everytime!
 NOTE: Make sure you have Python 3.9+ and Added to Path.
 ```
 
@@ -64,7 +57,7 @@ NOTE: Make sure you have Python 3.9+ and Added to Path.
 ```sh-session
 Download: https://github.com/TT-Tutorials/GANG-Nuker/releases
 Extract File
-Download the latest release (GANG-Nuker.zip) and Extract The Executable
+Download the latest release (nuker.zip) and Extract The Executable
 Launch Program and Enjoy!
 ```
 
