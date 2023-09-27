@@ -20,7 +20,6 @@ PREMIUM VERSION:
 
 <p align="center"> 
   <kbd>
-<img src="https://media.discordapp.net/attachments/1105062508781387786/1113971492435267614/image.png?width=1330&height=662"></img>
   </kbd>
 </p>
 
@@ -35,7 +34,7 @@ PREMIUM VERSION:
 
 > **WARNING:** Many people have been selling/distributing of PhuccAnhDepZai-Nuker!
 
-> **DO NOT** Installing PhuccAnhDepZai-Nuker From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
+> **DO NOT** Installing PhucAnhDepZai-Nuker From Anyother Place Than This Page, Expect it be **Hacked/Scammed.**
 
 ## Installation
 
