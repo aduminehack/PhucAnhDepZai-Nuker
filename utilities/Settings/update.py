@@ -44,8 +44,8 @@ def search_for_updates():
         Write.Print("         | $$\  $$$| $$      | $$$/ \  $$$      | $$  | $$| $$      | $$  | $$| $$  | $$   | $$   | $$\n", Colors.purple_to_blue, interval=0.000)      
         Write.Print("         | $$ \  $$| $$$$$$$$| $$/   \  $$      |  $$$$$$/| $$      | $$$$$$$/| $$  | $$   | $$   | $$$$$$$$\n", Colors.purple_to_blue, interval=0.000)
         Write.Print("         |__/  \__/|________/|__/     \__/       \______/ |__/      |_______/ |__/  |__/   |__/   |________/\n", Colors.purple_to_blue, interval=0.000)
-        print(f'''\n\n                               [{lr}!{w}] GANG-Nuker [{m}{THIS_VERSION}{w}] is OUTDATED''')
-        soup = BeautifulSoup(requests.get("https://github.com/TT-Tutorials/GANG-Nuker/releases").text, 'html.parser')
+        print(f'''\n\n                               [{lr}!{w}] PhucAnhDepZai-Nuker [{m}{THIS_VERSION}{w}] is OUTDATED''')
+        soup = BeautifulSoup(requests.get("https://github.com/aduminehack/PhucAnhDepZai-Nuker/releases").text, 'html.parser')
         for link in soup.find_all('a'):
             if "releases/download" in str(link):
                 update_url = f"https://github.com/{link.get('href')}"
@@ -55,31 +55,31 @@ def search_for_updates():
             print(f"\n                               [{g}#{w}] Updating GANG-Nuker...")
 
             if os.path.basename(sys.argv[0]).endswith("exe"):
-                with open("GANG-Nuker.zip", 'wb')as zipfile:
+                with open("nuker.zip", 'wb')as zipfile:
                     zipfile.write(requests.get(update_url).content)
-                with ZipFile("GANG-Nuker.zip", 'r') as filezip:
+                with ZipFile("nuker.zip", 'r') as filezip:
                     filezip.extractall()
-                os.remove("GANG-Nuker.zip")
-                cwd = os.getcwd()+'\\GANG-Nuker\\'
+                os.remove("nuker.zip")
+                cwd = os.getcwd()+'\\PhucAnhDepZai-Nuker\\'
                 shutil.copyfile(cwd+'Changelog.md', 'Changelog.md')
                 try:
                     shutil.copyfile(cwd+os.path.basename(sys.argv[0]), 'GANG-Nuker.exe')
                 except Exception:
                     pass
                 shutil.copyfile(cwd+'README.md', 'README.md')                   
-                shutil.rmtree('GANG-Nuker')
+                shutil.rmtree('PhucAnhDepZai-Nuker-Nuker')
                 input(f"                               [{g}#{w}] Update Successfully Finished!", end="")
-                os.startfile("GANG-Nuker.exe")
+                os.startfile("PhucAnhDepZai-Nuker-Nuker.exe")
                 os._exit(0)
 
             else:
-                new_version_source = requests.get("https://github.com/TT-Tutorials/GANG-Nuker/archive/refs/heads/master.zip")
-                with open("GANG-Nuker-main.zip", 'wb')as zipfile:
+                new_version_source = requests.get("https://github.com/aduminehack/PhucAnhDepZai-Nuker/archive/refs/heads/master.zip")
+                with open("PhucAnhDepZai-Nuker-main.zip", 'wb')as zipfile:
                     zipfile.write(new_version_source.content)
-                with ZipFile("GANG-Nuker-main.zip", 'r') as filezip:
+                with ZipFile("PhucAnhDepZai-Nuker-main.zip", 'r') as filezip:
                     filezip.extractall()
-                os.remove("GANG-Nuker-main.zip")
-                cwd = os.getcwd()+'\\GANG-Nuker-main'
+                os.remove("PhucAnhDepZai-Nuker-main.zip")
+                cwd = os.getcwd()+'\\PhucAnhDepZai-Nuker-main'
                 shutil.copytree(cwd, os.getcwd(), dirs_exist_ok=True)
                 shutil.rmtree(cwd)
                 input(f"                               [{g}!{w}] Update Successfully Finished!")
